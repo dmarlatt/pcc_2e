@@ -1,3 +1,6 @@
-name = "Ada Lovelace"
-print(name.upper())
-print(name.lower())
+name = "adA Lovelace"
+print(f"Orig: {name}")
+print(f"Title: {name.title()}")
+print(f"Upper: {name.upper()}")
+print(f"Lower: {name.lower()}")
+print(f"is printable: {name.isprintable()}")
