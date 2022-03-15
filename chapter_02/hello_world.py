@@ -1,5 +1,5 @@
 message = "Hello Python world!"
-print(message)
+print(f"{message}")
 
 message = "Hello Python Crash Course world!"
-print(message)
+print(f"{message}")
