@@ -1,5 +1,8 @@
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 print(cars)
 
-cars.reverse()
+cars.sort()
 print(cars)
+
+cars.reverse()
+print(f"{cars}")
