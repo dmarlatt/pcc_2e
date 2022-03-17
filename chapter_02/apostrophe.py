@@ -6,5 +6,6 @@ print()
 
 # Talk about numbers...
 CONST = 1_000
-print(f"{CONST}")
-print(f"{CONST / 100}")
+print(f"{CONST}\t{type(CONST)}")
+print(f"{CONST / 100}\t{type(CONST/100)}")
+print(f"{int(CONST / 100)}\t\t{type(int(CONST/100))}")
